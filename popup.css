@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #86b0d8;
+}
+h1{
+    text-align: center;
+    color: #f3eeee;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #f3eeee;
+    background: #2c3a47;
+    border: 1px solid #b6afaf;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #f00b0b;
+    color: #f3eeee;  
+}
+.active{
+    background: #af0606;
+    color: #f3eeee;
+}
